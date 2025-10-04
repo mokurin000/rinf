@@ -65,10 +65,10 @@ StreamBuilder(
 - **最小化**: Rinf 是一个轻量的的框架，不需要你安装很多依赖或使用复杂的命令行工具。你只需要关注基于你在Rust/Flutter侧喜欢的库的代码。
 - **事件驱动**: Rinf 异步系统可响应用户动作、消息、信号等事件，从而实现了高级并发处理、任务取消机制和非阻塞业务逻辑。
 - **可拓展**: 在 Dart 与 Rust 之间创建成百上千个消息接口，依然能保持简洁流畅。更重要的是，你可以灵活调用任何 Rust 库，包括你已经使用过的。
-- **High-level interface**: No messing with sensitive build files, no concerns about memory safety. Stay with Dart and Rust that you're familiar with.
-- **Well maintained**: Our [automated workflows](https://github.com/cunarist/rinf/actions) including build tests are always kept passing, thanks to the main branch protection rule. Also, the number of external dependencies is kept as low as possible and documentations are thoughtfully organized.
-- **Convenient debugging**: All the debugging functionalities are provided by default, without the need for dealing with browsers or mobile emulators. Also, the whole Rust logic is automatically restarted on Dart's hot restart.
-- **Reliable**: Each component is supported by huge communities, ensuring a strong emphasis on future safety. You can easily assure your team of stability since this framework's underlying concept is fairly simple.
+- **高级接口**：无需接触敏感构建文件，无需担忧内存安全问题。仅使用您熟悉的Dart和Rust即可轻松开发。
+- **维护完善**：依托[自动化工作流](https://github.com/cunarist/rinf/actions)和主干分支保护规则，我们的构建测试始终处于通过状态。同时严格控管第三方依赖数量，并精心编撰技术文档。
+- **调试便捷**：默认提供完整调试功能，无需配置浏览器或移动模拟器。在Dart热重启时，Rust逻辑层会自动同步重启。
+- **稳定可靠**：每个组件均获得庞大社区支持，确保项目具备长期可靠性。该框架底层架构设计简洁明了，您可以轻松向团队证明其稳定性。
 
 ## 🐦 Why Use Flutter?
 
